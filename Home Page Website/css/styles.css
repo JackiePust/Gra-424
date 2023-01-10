@@ -1,11 +1,20 @@
 .header {
     padding: 30px;
     text-align: center;
-    background: #e4e4e4;
-    color: white;
+    background: linear-gradient(#000000, #ffffff);
+    color: rgb(255, 255, 255);
     font-size: 15px;
-    font-family: 'Noto Serif', serif;
   }
+
+h1 {
+    font-family: 'Megrim', Arial, Helvetica, sans-serif;
+}
+
+#square {
+    width: 150px;
+    height: 150px;
+    background-color: #f00;
+}
 
 ol {
     padding-top: 2rem;

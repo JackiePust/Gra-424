@@ -1,7 +1,12 @@
 .header {
-    padding: 60px;
+    padding: 30px;
     text-align: center;
-    background: #faf3eb;
+    background: #e4e4e4;
     color: white;
-    font-size: 30px;
+    font-size: 15px;
+    font-family: 'Noto Serif', serif;
   }
+
+.ol {
+    padding: 30px;
+}  

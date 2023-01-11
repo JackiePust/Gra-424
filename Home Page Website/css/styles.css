@@ -10,11 +10,6 @@ h1 {
     font-family: 'Megrim', Arial, Helvetica, sans-serif;
 }
 
-#square {
-    width: 150px;
-    height: 150px;
-    background-color: #f00;
-}
 
 ol {
     padding-top: 2rem;

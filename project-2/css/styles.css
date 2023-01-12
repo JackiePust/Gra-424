@@ -23,7 +23,7 @@ position: absolute;
 
 .child2 {
 display: flex; 
-background: rgb(0, 0, 0);
+background: rgb(255, 255, 255);
 border-color: rgb(168, 168, 168);
 border-style: solid;
 border-width: .25px;
@@ -34,8 +34,8 @@ position: absolute;
 
 .child3 {
 display: flex; 
-background: rgb(255, 255, 255);
-width: 14.285714%;
-height: 14.285714%;
+background: rgb(0, 0, 0);
+width: .5cm;
+height: 42.857143%;
 position: absolute;
 }

@@ -1,0 +1,51 @@
+.parent {
+  background: rgb(255, 255, 255);
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  border: 20px, black;  
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}   
+
+.child {
+display: flex; 
+background: rgb(255, 255, 255);
+border-color: rgb(0, 0, 0);
+border-style: solid;
+border-width: .5px;
+height: 71.428571%;
+width: 71.428571%;
+position: absolute;
+}
+
+.child2 {
+display: flex; 
+background: rgb(255, 255, 255);
+border-color: rgb(168, 168, 168);
+border-style: solid;
+border-width: .25px;
+height: 42.857143%;
+width: 42.857143%;
+position: absolute;
+ }
+
+.child3 {
+display: flex; 
+background: rgb(0, 0, 0);
+width: 1.86335404%;
+height: 42.857143%;
+position: relative;
+justify-content: space-between;
+}
+
+.child4 {
+  display: flex; 
+  background: rgb(255, 255, 255);
+  width: 1.86335404%;
+  height: 42.857143%;
+  position: relative;
+  justify-content: space-between;
+  }

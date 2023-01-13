@@ -63,3 +63,18 @@ justify-content: space-between;
     -webkit-mask: var(--mask);
             mask: var(--mask);
     }
+
+    .child6 {
+    display: flex; 
+    background: rgb(0, 0, 0);
+    width: 42.857143%;
+    height: 42.857143%;
+    position: absolute;
+    justify-content: space-between;
+      --mask:
+      radial-gradient(17.3px at calc(100% + 5.50px) 50%,#0000 calc(99% - 10px),#000 calc(101% - 10px) 99%,#0000 101%) calc(50% - 10.5px + .5px) calc(50% - 22px)/ 21px 44px  ,
+      radial-gradient(17.3px at -5.5px 50%,#0000 calc(99% - 10px),#000 calc(101% - 10px) 99%,#0000 101%) calc(50% + 10.5px) 50%/21px 44px  ;
+    -webkit-mask: var(--mask);
+            mask: var(--mask);
+    }
+    

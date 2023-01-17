@@ -50,44 +50,72 @@ justify-content: space-between;
   justify-content: space-between;
   }
 
+.parent1-5 {
+  margin: auto;
+  height: 14.285714%;
+  width: 16%; 
+  position: absolute;
+  display: flex;
+}
+
+.white1 {
+  display: flex; 
+    height: 100%;
+    width: 10%;
+    position: relative;
+    --mask:
+    radial-gradient(29.09px at calc(100% + 9.80px) 50%,#0000 calc(99% - 24px),#000 calc(101% - 24px) 99%,#0000 101%) calc(50% - 19px + .5px) calc(50% - 28px)/ 38px 56px  repeat-y,
+    radial-gradient(29.09px at -9.8px 50%,#0000 calc(99% - 24px),#000 calc(101% - 24px) 99%,#0000 101%) calc(50% + 19px) 50%/38px 56px  repeat-y;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+    }
+
   .child5 {
     display: flex; 
     background: rgb(255, 255, 255);
-    width: 14.285714%;
-    height: 14.285714%;
-    position: absolute;
-    justify-content: space-between;
-      --mask:
-      radial-gradient(17.3px at calc(100% + 5.50px) 50%,#0000 calc(99% - 10px),#000 calc(101% - 10px) 99%,#0000 101%) calc(50% - 10.5px + .5px) calc(50% - 22px)/ 21px 44px  ,
-      radial-gradient(17.3px at -5.5px 50%,#0000 calc(99% - 10px),#000 calc(101% - 10px) 99%,#0000 101%) calc(50% + 10.5px) 50%/21px 44px  ;
-    -webkit-mask: var(--mask);
-            mask: var(--mask);
+    height: 100%;
+    width: 100%;
+    position: relative;
+    --mask:
+    radial-gradient(29.09px at calc(100% + 9.80px) 50%,#0000 calc(99% - 24px),#000 calc(101% - 24px) 99%,#0000 101%) calc(50% - 19px + .5px) calc(50% - 28px)/ 38px 56px  repeat-y,
+    radial-gradient(29.09px at -9.8px 50%,#0000 calc(99% - 24px),#000 calc(101% - 24px) 99%,#0000 101%) calc(50% + 19px) 50%/38px 56px  repeat-y;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+    }
+
+    .parent2 {
+      margin: auto;
+      height: 42.857143%;
+      width: 44%; 
+      position: absolute;
+      display: flex;
     }
 
     .child6 {
     display: flex; 
-    background: rgb(255, 8, 8);
-    width: 42.857143%;
-    height: 42.857143%;
-    position: absolute;
-    }
-    
-  @media only screen and (max-width: 1000px) {
-      .child6 {
-        --mask:
-    radial-gradient(24.85px at calc(100% + 13.65px) 50%,#0000 calc(99% - 12px),#000 calc(101% - 12px) 99%,#0000 101%) calc(50% - 12.5px + .5px) calc(50% - 26px)/ 25px 52px  ,
-    radial-gradient(24.85px at -13.65px 50%,#0000 calc(99% - 12px),#000 calc(101% - 12px) 99%,#0000 101%) calc(50% + 12.5px) 50%/25px 52px  ;
+    height: 100%;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    position: relative;
+    --mask:
+    radial-gradient(29.09px at calc(100% + 9.80px) 50%,#0000 calc(99% - 24px),#000 calc(101% - 24px) 99%,#0000 101%) calc(50% - 19px + .5px) calc(50% - 28px)/ 38px 56px  repeat-y,
+    radial-gradient(29.09px at -9.8px 50%,#0000 calc(99% - 24px),#000 calc(101% - 24px) 99%,#0000 101%) calc(50% + 19px) 50%/38px 56px  repeat-y;
   -webkit-mask: var(--mask);
           mask: var(--mask);
-      }
     }
 
-    @media only screen and (max-width: 1900px) {
-      .child6 {
-        --mask:
-        radial-gradient(30.85px at calc(100% + 13.65px) 50%,#0000 calc(99% - 24px),#000 calc(101% - 24px) 99%,#0000 101%) calc(50% - 18.5px + .5px) calc(50% - 26px)/ 37px 52px  ,
-        radial-gradient(30.85px at -13.65px 50%,#0000 calc(99% - 24px),#000 calc(101% - 24px) 99%,#0000 101%) calc(50% + 18.5px) 50%/37px 52px  ;
-      -webkit-mask: var(--mask);
-              mask: var(--mask);
-      }
+    .child7 {
+      display: flex; 
+    background: rgb(255, 255, 255);
+    height: 100%;
+    width: 30%;
+    position: relative;
+    --mask:
+    radial-gradient(29.59px at calc(100% + 9.80px) 50%,#0000 calc(99% - 25px),#000 calc(101% - 25px) 99%,#0000 101%) calc(50% - 19.5px + .5px) calc(50% - 28px)/ 39px 56px  repeat-y,
+    radial-gradient(29.59px at -9.8px 50%,#0000 calc(99% - 25px),#000 calc(101% - 25px) 99%,#0000 101%) calc(50% + 19.5px) 50%/39px 56px  repeat-y;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
     }
+
+
+  

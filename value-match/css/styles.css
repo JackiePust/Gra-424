@@ -1,0 +1,185 @@
+.parent {
+  background: rgb(255, 255, 255);
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  border: 20px, black;  
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}   
+
+.child {
+display: flex; 
+background: rgb(255, 255, 255);
+border-color: rgb(0, 0, 0);
+border-style: solid;
+border-width: .5px;
+height: 71.428571%;
+width: 71.428571%;
+position: absolute;
+}
+
+.child2 {
+display: flex;
+height: 42.857143%;
+width: 42.857143%;
+position: absolute;
+}
+
+.colorbox {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+  "box1 box2 box3"
+  "box4 box5 box6"
+  "box7 box7 box9"
+}
+
+.box1 {
+  background:#a4a7a6;
+  grid-area: "box1";
+}
+
+.box2 {
+grid-area: "box2";
+}
+
+.sbox2 {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+  "sbox21 sbox22"
+}
+
+.sbox21 {
+  background: #a4a7a6;
+  grid-area: "sbox21";
+}
+
+.sbox22 {
+  background: #bab7b5;
+  grid-area: "sbox22";
+}
+
+.box3 {
+  background: #bab7b5;
+  grid-area: "box3";
+}
+
+.box4 {
+  grid-area: "box4";
+}
+
+.sbox4 {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+  "sbox41"
+  "sbox42"
+}
+
+.sbox41 {
+  background: #a4a7a6;
+  grid-area: "sbox41";
+}
+
+.sbox42 {
+  background: #e9eae9;
+  grid-area: "sbox42";
+}
+
+
+.box5 {
+  grid-area: "box5";
+}
+
+.sbox5 {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+  "sbox51 sbox52"
+  "sbox53 sbox54"
+}
+
+.sbox51 {
+  background: #63b579;
+  grid-area: "sbox51";
+}
+
+.sbox52 {
+  background: #92c47b;
+  grid-area: "sbox52";
+}
+
+.sbox53 {
+  background: #d7e4b4;
+  grid-area: "sbox53";
+}
+
+.sbox54 {
+  background: #b5d394;
+  grid-area: "sbox54";
+}
+
+
+.box6 {
+  grid-area: "box6";
+}
+
+.sbox6 {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+  "sbox61"
+  "sbox62"
+}
+
+.sbox61 {
+  background: #bab7b5;
+  grid-area: "sbox61";
+}
+
+.sbox62 {
+  background: #d4d1ce;
+  grid-area: "sbox62";
+}
+
+.box7 {
+  background: #e9eae9;
+  grid-area: "box7";
+}
+
+.box8 {
+  grid-area: "box8";
+}
+
+.sbox8 {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+  "sbox81 sbox82"
+}
+
+.sbox81 {
+  background: #e9eae9;
+  grid-area: "sbox81";
+}
+
+.sbox82 {
+  background: #d4d1ce;
+  grid-area: "sbox82";
+}
+
+.box9 {
+  background:#d4d1ce;
+  grid-area: "box9";
+}
+ 

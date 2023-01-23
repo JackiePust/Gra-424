@@ -1,0 +1,106 @@
+.parent {
+  background: rgb(255, 255, 255);
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  border: 20px, black;  
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}   
+
+.child {
+display: flex; 
+background: rgb(255, 255, 255);
+border-color: rgb(0, 0, 0);
+border-style: solid;
+border-width: .5px;
+height: 71.428571%;
+width: 71.428571%;
+position: absolute;
+}
+
+.child2 {
+display: flex;
+height: 42.857143%;
+width: 42.857143%;
+position: absolute;
+}
+
+.colorbox {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+  "box1 box2 box3"
+  "box4 box5 box6"
+  "box7 box7 box9"
+}
+
+.box1 {
+  background:#faa31a;
+  grid-area: "box1";
+}
+
+.box2 {
+background: #cfcd37;
+grid-area: "box2";
+}
+
+.box3 {
+  background: #f6ef4d;
+  grid-area: "box3";
+}
+
+.box4 {
+  background: #98cc5b;
+  grid-area: "box4";
+}
+
+.box5 {
+  background: #eb4724;
+  grid-area: "box5";
+}
+
+.box6 {
+  background: #e2e42a;
+  grid-area: "box6";
+}
+
+.box7 {
+  background: #81d3f6;
+  grid-area: "box7";
+}
+
+.box8 {
+  background: #579040;
+  grid-area: "box8";
+}
+
+.box9 {
+  background:#faa31a;
+  grid-area: "box9";
+}
+
+.hover-img {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.hover-img img {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  object-fit: cover;
+  display: block;
+  max-width: 100;
+}
+
+.hover-img img:hover {
+  opacity: 100;
+}
+ 

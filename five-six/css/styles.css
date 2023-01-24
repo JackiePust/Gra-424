@@ -1,0 +1,106 @@
+.parent {
+  background: rgb(255, 255, 255);
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  border: 20px, black;  
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}   
+
+.child {
+display: flex; 
+background: rgb(255, 255, 255);
+border-color: rgb(0, 0, 0);
+border-style: solid;
+border-width: .5px;
+height: 71.428571%;
+width: 71.428571%;
+position: absolute;
+}
+
+.child2 {
+display: flex;
+height: 42.857143%;
+width: 42.857143%;
+position: absolute;
+}
+
+.colorbox {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+  "box1 box2 box3 box4 box5 box6"
+}
+
+.box1 {
+  background:#eeac6a;
+  grid-area: "box1";
+}
+
+.box2 {
+grid-area: "box2";
+display: grid;
+grid-template-areas:
+"ltopbox"
+"lmidbox"
+"lbottombox"
+}
+
+.box5 {
+  grid-area: "box5";
+  display: grid;
+  grid-template-areas:
+  "rtopbox"
+  "rmidbox"
+  "rbottombox"
+  }
+
+.ltopbox {
+  background: #eeac6a;
+  grid-area: "lmidbox";
+}
+
+.lmidbox {
+  background: #decbc6;
+  grid-area: "lmidbox";
+}
+
+.lbottombox {
+  background: #eeac6a;
+  grid-area: "lmidbox";
+}
+
+.rtopbox {
+  background: #72589d;
+  grid-area: "rmidbox";
+}
+
+.rmidbox {
+  background: #decbc6;
+  grid-area: "rmidbox";
+}
+
+.rbottombox {
+  background: #72589d;
+  grid-area: "rmidbox";
+}
+
+.box3 {
+  background: #f7d4b0;
+  grid-area: "box3";
+}
+
+.box4 {
+  background: #572858;
+  grid-area: "box4";
+}
+
+.box6 {
+  background: #72589d;
+  grid-area: "box6";
+}
+ 
